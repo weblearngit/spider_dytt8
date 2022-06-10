@@ -86,3 +86,28 @@ ROBOTSTXT_OBEY = False
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# 是否启用日志
+LOG_ENABLED = True
+
+# 日志使用的编码
+LOG_ENCODING = "utf-8"
+
+# # 日志文件(文件名)
+# LOG_FILE = None
+
+# 日志格式
+LOG_FORMAT = "%(asctime)s P%(process)d [%(name)s] %(levelname)s: %(message)s"
+
+# 日志时间格式
+LOG_DATEFORMAT = "%Y-%m-%d %H:%M:%S"
+
+# # 日志级别 CRITICAL, ERROR, WARNING, INFO, DEBUG
+# LOG_LEVEL = "DEBUG"
+
+# 如果等于True，所有的标准输出（包括错误）都会重定向到日志，例如：print('hello')
+# 不能重定向标准输出，会导致启动时的spider_name判断有异常
+LOG_STDOUT = False
+
+# # 如果等于True，日志仅仅包含根路径，False显示日志输出组件
+# LOG_SHORT_NAMES = False
